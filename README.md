@@ -136,13 +136,6 @@ This assignment will be graded via peer assessment.
              getinverse = getinverse)
     }
 
-<!-- -->
-
-   
-    }
-
-
-
 
 ## Write a short comment describing this function
 <!-- -->
