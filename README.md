@@ -108,7 +108,9 @@ This assignment will be graded via peer assessment.
 ### Assigment submit
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
+<!-- -->
+
+    makeCacheMatrix <- function(x = matrix()) {
         ## initialize the inverse property
         m <- NULL
         ## set the matrix
@@ -132,11 +134,19 @@ makeCacheMatrix <- function(x = matrix()) {
              get = get,
              setinverse = setinverse,
              getinverse = getinverse)
-}
+    }
+
+<!-- -->
+
+   
+    }
+
+
+
 
 ## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
+<!-- -->
+    cacheSolve <- function(x, ...) {
         ## check a matrix
         m <- x$getinverse()
         ## if the inverse has alreday been calculated
@@ -152,4 +162,6 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         x$setinverse(m)
         m
-}
+    }
+   
+
